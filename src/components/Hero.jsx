@@ -57,7 +57,7 @@ export default function Hero() {
                   muted
                   loop
                   playsInline
-                  src="/videos/地球.mp4"
+                  src="/portfolio-site/videos/地球.mp4"
                 />
                 <div className="hero-card-overlay" />
               </div>
@@ -68,7 +68,7 @@ export default function Hero() {
                   muted
                   loop
                   playsInline
-                  src="/videos/实时监控.mp4"
+                  src="/portfolio-site/videos/实时监控.mp4"
                 />
                 <div className="hero-card-overlay" />
               </div>
