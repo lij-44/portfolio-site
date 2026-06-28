@@ -1,0 +1,113 @@
+.about {
+  padding: 120px 0;
+  background: var(--bg-secondary);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 380px 1fr;
+  gap: 80px;
+  align-items: start;
+}
+
+@media (max-width: 1100px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+}
+
+/* ========== LEFT — Photo ========== */
+.about-left {
+  position: sticky;
+  top: calc(var(--nav-height) + 40px);
+}
+
+@media (max-width: 1100px) {
+  .about-left {
+    position: static;
+    max-width: 380px;
+  }
+}
+
+.about-photo-wrapper {
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+}
+
+.about-photo {
+  width: 100%;
+  aspect-ratio: 4 / 5.2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:
+    radial-gradient(ellipse at 50% 30%, rgba(200,168,130,0.04) 0%, transparent 60%);
+}
+
+/* ========== RIGHT ========== */
+.about-right {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Summary */
+.about-summary {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 12px;
+  font-family: var(--font-cn);
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.about-summary-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--accent);
+  opacity: 0.5;
+}
+
+.about-summary-desc {
+  font-family: var(--font-cn);
+  font-size: 16px;
+  color: var(--text-secondary);
+  line-height: 1.8;
+  margin-bottom: 48px;
+}
+
+/* Section Label */
+.about-section-label {
+  font-family: var(--font-cn);
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.about-section-label::before {
+  content: '';
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+/* 个人优势 */
+.about-strength-text {
+  font-family: var(--font-cn);
+  font-size: 15px;
+  color: var(--text-secondary);
+  line-height: 2;
+}
