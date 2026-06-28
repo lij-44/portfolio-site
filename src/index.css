@@ -9,10 +9,10 @@
   --text-primary: #ededed;
   --text-secondary: #a0a0a0;
   --text-tertiary: #666;
-  --accent: #c8a882;
-  --accent-rgb: 200, 168, 130;
-  --accent-dim: rgba(200, 168, 130, 0.12);
-  --accent-glow: rgba(200, 168, 130, 0.25);
+  --accent: #FF6B2B;
+  --accent-rgb: 255, 107, 43;
+  --accent-dim: rgba(255, 107, 43, 0.12);
+  --accent-glow: rgba(255, 107, 43, 0.25);
   --font-en: 'Inter', system-ui, sans-serif;
   --font-cn: 'Noto Sans SC', system-ui, sans-serif;
   --max-width: 1700px;
