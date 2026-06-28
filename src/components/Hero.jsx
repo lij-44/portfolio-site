@@ -3,6 +3,7 @@ import './Hero.css';
 export default function Hero() {
   return (
     <section id="hero" className="hero">
+      {/* Subtle background animation */}
       <div className="hero-bg">
         <div className="hero-grain" />
         <div className="hero-glow-top" />
@@ -10,7 +11,7 @@ export default function Hero() {
 
       <div className="hero-content container">
         <div className="hero-grid">
-          {/* Left — Main Typography (保持不变) */}
+          {/* Left — Main Typography */}
           <div className="hero-left">
             <div className="hero-eyebrow">
               <span className="hero-eyebrow-line" />
@@ -46,14 +47,31 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* Right — Hero Image */}
+          {/* Right — Visual Element */}
           <div className="hero-right">
-            <div className="hero-image-wrap">
-              <img
-                className="hero-image"
-                src="/portfolio-site/images/hero-bg.png"
-                alt="Design Works"
-              />
+            <div className="hero-visual">
+              <div className="hero-video-card">
+                <video
+                  className="hero-card-video"
+                  autoPlay
+                  muted
+                  loop
+                  playsInline
+                  src="/portfolio-site/videos/地球.mp4"
+                />
+                <div className="hero-card-overlay" />
+              </div>
+              <div className="hero-video-card secondary">
+                <video
+                  className="hero-card-video"
+                  autoPlay
+                  muted
+                  loop
+                  playsInline
+                  src="/portfolio-site/videos/实时监控.mp4"
+                />
+                <div className="hero-card-overlay" />
+              </div>
             </div>
             <div className="hero-stats">
               <div className="hero-stat">
