@@ -18,8 +18,8 @@ const projects = [
     tags: ['Data Viz', '动效设计', '健康医疗'],
     desc: '健康检测数据可视化大屏，集成人体健康指标实时监测与数据呈现，独立完成 UI 设计与动效制作。',
     videos: [
-      '/videos/健康系统可视化 -作品1.mp4',
-      '/videos/人体.mp4',
+      '/portfolio-site/videos/健康系统可视化 -作品1.mp4',
+      '/portfolio-site/videos/人体.mp4',
     ],
     size: 'wide',
     aspectRatio: '2560 / 1080',
@@ -31,8 +31,8 @@ const projects = [
     tags: ['Real-time', '数据监控', '测评分析'],
     desc: '面向企业运维场景的实时数据监控与测评分析可视化大屏，覆盖全球节点数据呈现与异常预警交互设计。',
     videos: [
-      '/videos/实时监控.mp4',
-      '/videos/地球.mp4',
+      '/portfolio-site/videos/实时监控.mp4',
+      '/portfolio-site/videos/地球.mp4',
     ],
     size: 'wide',
     aspectRatio: '2500 / 1056',
@@ -47,7 +47,7 @@ const projects = [
     desc: '基于爱宠人士衍生的宠物服务 App，提供洗护、医疗、食品购买、社区交流等一站式服务，定位于中端用户。',
     link: '#pet-app',
     zcoolLink: 'https://www.zcool.com.cn/work/ZNTc0MDk2MzI=.html',
-    cover: '/images/pet-app/APP界面设计1 (3)-03.jpg',
+    cover: '/portfolio-site/images/pet-app/APP界面设计1 (3)-03.jpg',
   },
   {
     id: 4,
@@ -56,7 +56,7 @@ const projects = [
     tags: ['iOS', '运动健康', 'UI Design'],
     desc: '运动计步与健康管理 App 界面设计，以极光为视觉灵感，打造轻盈、动感的运动体验界面。',
     hasDetail: true,
-    cover: '/images/aurora-app/APP界面设计1 (3)-24.jpg',
+    cover: '/portfolio-site/images/aurora-app/APP界面设计1 (3)-24.jpg',
   },
 
   // ---- 其他 ----
@@ -67,7 +67,7 @@ const projects = [
     tags: ['Web Design', '品牌官网', 'UX'],
     desc: '多款品牌官网与企业站网页设计，涵盖运动器材、科技企业等不同行业，从信息架构到高保真完整交付。',
     hasDetail: true,
-    cover: '/images/web-design/APP界面设计1 (3)-34.jpg',
+    cover: '/portfolio-site/images/web-design/APP界面设计1 (3)-34.jpg',
   },
   {
     id: 6,
@@ -76,7 +76,7 @@ const projects = [
     tags: ['Branding', '海报', '视觉'],
     desc: '海报创意、商业图像合成、三维设计等多元化视觉作品，展现多维度跨媒介的视觉表达能力。',
     hasDetail: true,
-    cover: '/images/other-design/APP界面设计1 (3)-39-39.jpg',
+    cover: '/portfolio-site/images/other-design/APP界面设计1 (3)-39-39.jpg',
   },
 ];
 

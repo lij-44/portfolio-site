@@ -1,10 +1,10 @@
 import './PetApp.css'; // 复用统一封页样式
 
 const screenshots = [
-  { id: 1, src: '/images/other-design/APP界面设计1 (3)-39-37.jpg', title: '海报创意 1' },
-  { id: 2, src: '/images/other-design/APP界面设计1 (3)-39-38.jpg', title: '商业合成' },
-  { id: 3, src: '/images/other-design/APP界面设计1 (3)-39-39.jpg', title: '三维设计' },
-  { id: 4, src: '/images/other-design/APP界面设计1 (3)-39-40.jpg', title: '视觉设计' },
+  { id: 1, src: '/portfolio-site/images/other-design/APP界面设计1 (3)-39-37.jpg', title: '海报创意 1' },
+  { id: 2, src: '/portfolio-site/images/other-design/APP界面设计1 (3)-39-38.jpg', title: '商业合成' },
+  { id: 3, src: '/portfolio-site/images/other-design/APP界面设计1 (3)-39-39.jpg', title: '三维设计' },
+  { id: 4, src: '/portfolio-site/images/other-design/APP界面设计1 (3)-39-40.jpg', title: '视觉设计' },
 ];
 
 export default function OtherDesign({ onBack }) {

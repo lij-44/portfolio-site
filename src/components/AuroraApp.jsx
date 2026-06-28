@@ -1,16 +1,16 @@
 import './PetApp.css'; // 复用统一封页样式
 
 const screenshots = [
-  { id: 1, src: '/images/aurora-app/APP界面设计1 (3)-24.jpg', title: '启动页' },
-  { id: 2, src: '/images/aurora-app/APP界面设计1 (3)-25.jpg', title: '登录注册' },
-  { id: 3, src: '/images/aurora-app/APP界面设计1 (3)-26.jpg', title: '首页仪表盘' },
-  { id: 4, src: '/images/aurora-app/APP界面设计1 (3)-27.jpg', title: '计步详情' },
-  { id: 5, src: '/images/aurora-app/APP界面设计1 (3)-28.jpg', title: '运动记录' },
-  { id: 6, src: '/images/aurora-app/APP界面设计1 (3)-29.jpg', title: '健康数据' },
-  { id: 7, src: '/images/aurora-app/APP界面设计1 (3)-30.jpg', title: '目标设定' },
-  { id: 8, src: '/images/aurora-app/APP界面设计1 (3)-31.jpg', title: '个人中心' },
-  { id: 9, src: '/images/aurora-app/APP界面设计1 (3)-32.jpg', title: '成就徽章' },
-  { id: 10, src: '/images/aurora-app/APP界面设计1 (3)-33.jpg', title: '设置页面' },
+  { id: 1, src: '/portfolio-site/images/aurora-app/APP界面设计1 (3)-24.jpg', title: '启动页' },
+  { id: 2, src: '/portfolio-site/images/aurora-app/APP界面设计1 (3)-25.jpg', title: '登录注册' },
+  { id: 3, src: '/portfolio-site/images/aurora-app/APP界面设计1 (3)-26.jpg', title: '首页仪表盘' },
+  { id: 4, src: '/portfolio-site/images/aurora-app/APP界面设计1 (3)-27.jpg', title: '计步详情' },
+  { id: 5, src: '/portfolio-site/images/aurora-app/APP界面设计1 (3)-28.jpg', title: '运动记录' },
+  { id: 6, src: '/portfolio-site/images/aurora-app/APP界面设计1 (3)-29.jpg', title: '健康数据' },
+  { id: 7, src: '/portfolio-site/images/aurora-app/APP界面设计1 (3)-30.jpg', title: '目标设定' },
+  { id: 8, src: '/portfolio-site/images/aurora-app/APP界面设计1 (3)-31.jpg', title: '个人中心' },
+  { id: 9, src: '/portfolio-site/images/aurora-app/APP界面设计1 (3)-32.jpg', title: '成就徽章' },
+  { id: 10, src: '/portfolio-site/images/aurora-app/APP界面设计1 (3)-33.jpg', title: '设置页面' },
 ];
 
 export default function AuroraApp({ onBack }) {
