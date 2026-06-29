@@ -8,27 +8,27 @@ export default function Hero() {
       <div className="hero-grainient-wrap">
         <Grainient
           color1="#F97316"
-          color2="#0f072e"
-          color3="#b7b7b8"
-          timeSpeed={0.25}
-          colorBalance={0.0}
-          warpStrength={1.0}
-          warpFrequency={5.0}
-          warpSpeed={2.0}
-          warpAmplitude={50.0}
+          color2="#1a1a2e"
+          color3="#3d3d3d"
+          timeSpeed={0.12}
+          colorBalance={-0.15}
+          warpStrength={0.4}
+          warpFrequency={3.0}
+          warpSpeed={1.0}
+          warpAmplitude={80.0}
           blendAngle={0.0}
-          blendSoftness={0.05}
-          rotationAmount={500.0}
-          noiseScale={2.0}
-          grainAmount={0.1}
-          grainScale={2.0}
+          blendSoftness={0.12}
+          rotationAmount={300.0}
+          noiseScale={1.5}
+          grainAmount={0.06}
+          grainScale={3.0}
           grainAnimated={false}
-          contrast={1.5}
-          gamma={1.0}
-          saturation={1.0}
+          contrast={1.05}
+          gamma={0.95}
+          saturation={0.4}
           centerX={0.0}
           centerY={0.0}
-          zoom={0.9}
+          zoom={0.85}
         />
       </div>
 
