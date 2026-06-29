@@ -8,22 +8,21 @@
   overflow: hidden;
 }
 
-/* Grainient Animated Background */
-.hero-grainient-wrap {
+/* Plasma Animated Background */
+.hero-plasma-wrap {
   position: absolute;
   inset: 0;
   z-index: 0;
   pointer-events: none;
 }
 
-/* Frosted overlay — softens the gradient for better text readability */
-.hero-grainient-wrap::after {
-  content: '';
+/* Frosted overlay — softens the plasma for better text readability */
+.hero-plasma-frost {
   position: absolute;
   inset: 0;
-  background: rgba(5, 5, 5, 0.55);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
+  background: rgba(5, 5, 5, 0.50);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
 }
 
 .hero-content {

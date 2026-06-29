@@ -1,35 +1,20 @@
-import Grainient from './Grainient';
+import Plasma from './Plasma';
 import './Hero.css';
 
 export default function Hero() {
   return (
     <section id="hero" className="hero">
-      {/* Animated Gradient Background */}
-      <div className="hero-grainient-wrap">
-        <Grainient
-          color1="#F97316"
-          color2="#1a1a2e"
-          color3="#3d3d3d"
-          timeSpeed={0.12}
-          colorBalance={-0.15}
-          warpStrength={0.4}
-          warpFrequency={3.0}
-          warpSpeed={1.0}
-          warpAmplitude={80.0}
-          blendAngle={0.0}
-          blendSoftness={0.12}
-          rotationAmount={300.0}
-          noiseScale={1.5}
-          grainAmount={0.06}
-          grainScale={3.0}
-          grainAnimated={false}
-          contrast={1.05}
-          gamma={0.95}
-          saturation={0.4}
-          centerX={0.0}
-          centerY={0.0}
-          zoom={0.85}
+      {/* Plasma Animated Background */}
+      <div className="hero-plasma-wrap">
+        <Plasma
+          color="#F97316"
+          speed={0.4}
+          direction="forward"
+          scale={1.15}
+          opacity={0.35}
+          mouseInteractive={true}
         />
+        <div className="hero-plasma-frost" />
       </div>
 
       <div className="hero-content container">
