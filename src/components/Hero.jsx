@@ -1,25 +1,12 @@
-import Plasma from './Plasma';
 import './Hero.css';
 
 export default function Hero() {
   return (
     <section id="hero" className="hero">
-      {/* Plasma Animated Background */}
-      <div className="hero-plasma-wrap">
-        <Plasma
-          color="#F97316"
-          speed={0.4}
-          direction="forward"
-          scale={1.15}
-          opacity={0.35}
-          mouseInteractive={true}
-        />
-        <div className="hero-plasma-frost" />
-      </div>
 
       <div className="hero-content container">
         <div className="hero-grid">
-          {/* Left — Main Typography */}
+          {/* Content — Left aligned, full-width feel */}
           <div className="hero-left">
             <div className="hero-eyebrow">
               <span className="hero-eyebrow-line" />
@@ -53,34 +40,7 @@ export default function Hero() {
                 联系我
               </a>
             </div>
-          </div>
 
-          {/* Right — Visual Element */}
-          <div className="hero-right">
-            <div className="hero-visual">
-              <div className="hero-video-card">
-                <video
-                  className="hero-card-video"
-                  autoPlay
-                  muted
-                  loop
-                  playsInline
-                  src="/portfolio-site/videos/地球.mp4"
-                />
-                <div className="hero-card-overlay" />
-              </div>
-              <div className="hero-video-card secondary">
-                <video
-                  className="hero-card-video"
-                  autoPlay
-                  muted
-                  loop
-                  playsInline
-                  src="/portfolio-site/videos/实时监控.mp4"
-                />
-                <div className="hero-card-overlay" />
-              </div>
-            </div>
             <div className="hero-stats">
               <div className="hero-stat">
                 <span className="hero-stat-num">5+</span>

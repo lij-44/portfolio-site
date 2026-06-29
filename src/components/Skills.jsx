@@ -1,3 +1,4 @@
+import BorderGlow from './BorderGlow';
 import './Skills.css';
 
 const skillCategories = [
@@ -65,7 +66,18 @@ export default function Skills() {
         {/* Skill Bars Grid */}
         <div className="skills-grid">
           {skillCategories.map((cat) => (
-            <div key={cat.title} className="skill-category">
+            <BorderGlow
+              key={cat.title}
+              backgroundColor="rgba(20,20,20,0.85)"
+              borderRadius={16}
+              glowRadius={40}
+              glowIntensity={1.0}
+              coneSpread={25}
+              edgeSensitivity={30}
+              glowColor="24 100 50"
+              colors={['#FF6B2B', '#f97316', '#ff8c00']}
+            >
+            <div className="skill-category">
               <div className="skill-category-header">
                 <h3 className="skill-category-title">{cat.title}</h3>
                 <span className="skill-category-en">{cat.en}</span>
@@ -87,6 +99,7 @@ export default function Skills() {
                 ))}
               </div>
             </div>
+            </BorderGlow>
           ))}
         </div>
 

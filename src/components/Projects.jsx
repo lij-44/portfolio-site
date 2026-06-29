@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
+import BorderGlow from './BorderGlow';
 import './Projects.css';
 
 const categories = [
@@ -154,8 +155,18 @@ export default function Projects({ onNavigateToPetApp, onNavigateToAuroraApp, on
         {/* Project Grid */}
         <div className="project-grid">
           {filtered.map((project) => (
-            <article
+            <BorderGlow
               key={project.id}
+              backgroundColor="rgba(20,20,20,0.85)"
+              borderRadius={16}
+              glowRadius={40}
+              glowIntensity={1.0}
+              coneSpread={25}
+              edgeSensitivity={30}
+              glowColor="24 100 50"
+              colors={['#FF6B2B', '#f97316', '#ff8c00']}
+            >
+            <article
               className={`project-card ${project.size === 'wide' ? 'wide' : ''}`}
             >
               <div className="project-image" style={project.aspectRatio ? { aspectRatio: project.aspectRatio } : undefined}>
@@ -289,6 +300,7 @@ export default function Projects({ onNavigateToPetApp, onNavigateToAuroraApp, on
                 )}
               </div>
             </article>
+            </BorderGlow>
           ))}
         </div>
       </div>

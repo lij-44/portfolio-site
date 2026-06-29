@@ -1,6 +1,6 @@
 .projects {
   padding: 140px 0 100px;
-  background: var(--bg-primary);
+  background: transparent;
 }
 
 .section-title {
@@ -31,8 +31,10 @@
   gap: 8px;
   margin-bottom: 60px;
   padding: 6px;
-  background: var(--bg-card);
-  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 40px;
   width: fit-content;
 }
@@ -47,11 +49,11 @@
   white-space: nowrap;
 }
 .filter-btn:hover {
-  color: var(--text-primary);
+  color: #fff;
 }
 .filter-btn.active {
-  background: rgba(255, 255, 255, 0.06);
-  color: var(--text-primary);
+  background: var(--accent);
+  color: #fff;
 }
 
 /* Project Grid */
@@ -73,18 +75,15 @@
 
 /* Project Card */
 .project-card {
-  background: var(--bg-card);
-  border: 1px solid var(--border);
+  background: rgba(15, 15, 15, 0.92);
+  border: none;
   border-radius: 16px;
   overflow: hidden;
-  transition: all 0.4s ease;
   cursor: pointer;
+  transition: background 0.35s ease;
 }
 .project-card:hover {
-  background: var(--bg-card-hover);
-  border-color: var(--border-hover);
-  transform: translateY(-4px);
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+  background: rgba(25, 25, 25, 0.95);
 }
 
 /* Wide card spans full width */
@@ -99,7 +98,7 @@
 .project-image {
   aspect-ratio: 16 / 9;
   overflow: hidden;
-  background: var(--bg-secondary);
+  background: transparent;
 }
 
 .project-cover-img {
@@ -116,10 +115,11 @@
 /* === Video Carousel === */
 .project-carousel {
   position: relative;
+  z-index: 1;
   width: 100%;
   height: 100%;
   overflow: hidden;
-  background: var(--bg-secondary);
+  background: transparent;
 }
 
 .project-carousel-slide {

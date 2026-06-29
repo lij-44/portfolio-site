@@ -1,6 +1,8 @@
 .skills {
+  position: relative;
+  z-index: 1;
   padding: 140px 0;
-  background: var(--bg-secondary);
+  background: transparent;
   border-top: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
 }
@@ -26,16 +28,14 @@
 
 /* Category Card */
 .skill-category {
-  background: var(--bg-card);
-  border: 1px solid var(--border);
+  background: rgba(15, 15, 15, 0.92);
+  border: none;
   border-radius: 16px;
   padding: 28px;
-  transition: all 0.4s ease;
+  transition: background 0.35s ease;
 }
 .skill-category:hover {
-  border-color: var(--border-hover);
-  transform: translateY(-4px);
-  box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+  background: rgba(30, 30, 30, 0.90);
 }
 
 .skill-category-header {

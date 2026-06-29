@@ -44,18 +44,18 @@
   gap: 8px;
   font-size: 13px;
   font-weight: 500;
-  color: var(--text-tertiary);
+  color: var(--accent);
   padding: 10px 20px;
-  background: rgba(255,255,255,0.03);
-  border: 1px solid var(--border);
+  background: rgba(255,107,43,0.08);
+  border: 1px solid rgba(255,107,43,0.25);
   border-radius: 100px;
   transition: all 0.3s ease;
 }
 
 .pet-back-btn:hover {
-  color: var(--text-primary);
-  border-color: var(--border-hover);
-  background: rgba(255,255,255,0.06);
+  color: #fff;
+  border-color: var(--accent);
+  background: rgba(255,107,43,0.18);
 }
 
 .pet-back-btn.secondary {
